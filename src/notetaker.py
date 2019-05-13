@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Takes quick notes from the command line."""
+"""Takes quick one-liner notes from the command line."""
 
 #stand lib
 import argparse as ap
@@ -19,6 +19,7 @@ if __name__ == "__main__":
         with open(save_file, "a+") as f:
             f.write(args.note)
             f.write("\n")
+    else:
+        print("No note was saved.")
     
     parser.exit(status=0, message="Note saved.\n")
-#    print("\n")
