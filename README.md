@@ -4,5 +4,4 @@ To take quick notes at the command line.
 * appends new lines to that file.
 
 # Operation
-* run `note "<note here>"`
-* press enter
+1. Run `python3 src/notetaker.py` or make it an executable and run through a bash convenience script.
